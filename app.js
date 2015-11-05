@@ -15,8 +15,11 @@ var tmpl = ' <li id="ID">' +
            ' </li> ';
 
 $(document).ready(function(){
-
-
+    $('.options').hide();
+    $('.final').hide();
+    for (var i=0;i<data.length;i++) {
+        $('jumbotron').append(tmpl).replace('WORD',);
+    }
 });
 
 
